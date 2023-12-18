@@ -7,7 +7,7 @@ This code has been tested on Ubuntu, PyTorch 1.2, Python 3.6, and Nvidia GTX 940
 1. Clone the repo
 
 2. Install the below:
-apt-get install tk-dev python-tk
+```apt-get install tk-dev python-tk```
 
 3. Activate the virutal Install the required Python packages in a virtual environment
 ```(pytorch)$ pip3 install torch torchvision``` 
