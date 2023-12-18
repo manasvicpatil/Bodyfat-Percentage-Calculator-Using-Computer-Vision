@@ -57,7 +57,7 @@ The model will estimate your neck and waist circumference to predict your body f
 Paste your picture in data/inputs/
 
 ```Run python3 measure_body.py --image_name <name_of_your_image>.jpg```
-Your results are shown on the screen.
+Your results will be shown on the screen.
 
 # Working
 It uses a monocular depth estimating network to produce a pixel-level depth map. This was based on the CVPR 2019 paper 'Learning the depths of moving people by watching frozen people'. At the same time, the RetinaNet object detection model was finetuned to estimate the location of your body parts. PyTorch was used for both networks. This information is combined to calculate your body measurements and body fat percentage. Some camera intrinsics from the EXIF data is also used for estimation. It uses the Navy body fat formula for calculation.
